@@ -5,3 +5,14 @@ License: GPL (>= 2)
 MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
+Package: rhr
+Version: 1.2.000
+Depends: Rcpp, ggplot2, grid, rgdal, maptools, methods
+Imports: sp, raster, rgeos, spacetime, adehabitatHR, adehabitatLT,
+        gridExtra, KernSmooth, lubridate, mixtools, mvtnorm, reshape2
+LinkingTo: Rcpp
+Suggests: ascii, shiny (>= 0.10.2.1), knitr, markdown, testthat,
+        shinyBS, brew, xtable
+License: GPL-3
+MD5sum: bc394bd6e79337008baa572b9e729ad0
+NeedsCompilation: yes
